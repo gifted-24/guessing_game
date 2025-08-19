@@ -1,0 +1,43 @@
+# Rust/Cargo build output
+/target/
+/debug/
+/release/
+
+# Keep Cargo.lock committed for binary applications
+# (Do NOT ignore Cargo.lock)
+
+# Coverage / profiling artifacts
+*.profraw
+*.profdata
+coverage/
+
+# OS-specific junk (Windows, macOS)
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Logs and temporary files
+*.log
+logs/
+log/
+.tmp/
+.tmp*/
+*.tmp
+.tmp
+.temp/
+tmp/
+
+# Env files (keep example variants)
+.env
+.env.*
+!.env.example
+
+# Rust toolchain local dirs (if accidentally placed here)
+.rustup/
