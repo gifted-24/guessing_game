@@ -5,6 +5,8 @@ use std::cmp::Ordering;
 fn input() -> String {
     let mut buf = String::new();
     io::stdin().read_line(&mut buf).expect("Failed to read line");
+    buf
+}
 
 fn main() {
     let secret_num: u8 = rand::rng().random_range(1..=100);
